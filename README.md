@@ -1,3 +1,3 @@
-# Fűtés fával
-# heating-with-wood
-https://futes-faval.netlify.com
+# Fűtés fával, súlyra
+# heating-with-wood-weight
+https://futes-faval-sulyra.netlify.com
