@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Fával fűtünk">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Fűtés fával</title>
+  <script src="fafutes.js"></script>
+</head>
+<body>
+  <h2>Fűtés fával, súlyra vásárolva</h2>
+  <p>code: Barják László 2022</p>
+  <p>Forráskód:
+  <a href="https://github.com/lbarjak/heating-with-wood">https://github.com/lbarjak/heating-with-wood-weight</a></p>
+  <form name="fa">
+    Válassz fát:
+    <select name="fajta">
+      <option>akác</option>
+      <option>borovi</option>
+      <option>bükk</option>
+      <option>cseresznye</option>
+      <option>gyertyán</option>
+      <option>hárs</option>
+      <option>luc</option>
+      <option>tölgy</option>
+    </select>
+    <br>
+    Tíz mázsa fa ára:
+    <input type="text" id="ar" value="70000" maxlength="5" size="5">
+    Ft<br>
+    Fűtőérték:
+    <input type="text" id="futoertek" value="5.2" maxlength="3" size="3">
+    kWh/kg<br>
+    Nedvességtartalom:
+    <input type="text" id="nedvtart" value="18" maxlength="2" size="2">
+     %<br>
+    A kazán hatásfoka:
+    <input type="text" id="kazanHatasfok" value="80" maxlength="2" size="2">
+     %
+  </form>
+  <br>
+  <button onclick="init()">számolj</button>
+  <br>
+  <p>
+    <span class='suruseg'></span><br>
+    <br>
+    <span class='ossztomeg'></span><br>
+    <span class='szarazfa'></span><br>
+    <span class='szarazfa2'></span><br>
+    <span class='viz'></span><br>
+    <span class='viz2'></span><br>
+    <span class='teljes'></span><br>
+    <br>
+    <span class='hasznos'></span><br>
+    <span class='ar'></span><br>
+  </p>
+</body>
+</html>
